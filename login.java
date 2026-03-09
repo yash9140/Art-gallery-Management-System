@@ -30,7 +30,7 @@ public class login extends JFrame implements ActionListener {
         label2 = new JLabel("USERNAME: ");
         label2.setFont(new Font("Ralway",Font.BOLD,28));
         label2.setForeground(Color.RED);
-        label2.setBounds(150,190,375,30);
+        label2.setBounds(150,190,375,40);
         add(label2);
 
         textField2 = new JTextField(15);
@@ -119,3 +119,4 @@ public class login extends JFrame implements ActionListener {
 
 
 }
+
